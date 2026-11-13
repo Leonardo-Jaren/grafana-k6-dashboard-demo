@@ -4,6 +4,16 @@ Pulse es una propuesta interactiva para explorar un panel de rendimiento con mod
 
 > **Demo:** todas las métricas son simuladas. No ejecuta Grafana k6, no realiza solicitudes a la URL indicada y no mide la capacidad real de un sistema.
 
+## Capturas
+
+**Vista de escritorio — modo API**
+
+![Panel de escritorio en modo API](docs/escritorio.webp)
+
+**Vista móvil — modo navegador**
+
+![Panel móvil en modo navegador](docs/movil.webp)
+
 ## Funciones
 
 - Configuración de URL, método HTTP, usuarios virtuales, duración y perfiles de carga.
@@ -21,3 +31,4 @@ HTML, CSS, JavaScript y Chart.js.
 ## Alcance
 
 La demo no contiene backend ni un ejecutor de k6. Evita introducir secretos; la URL se incluye en los reportes exportados.
+
